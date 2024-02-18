@@ -1,0 +1,113 @@
+.logo{
+    margin-left: 93%;
+    margin-top: 20px;
+}
+.titre
+{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+.en-tete
+{
+    text-align: left;
+}
+.fournisseur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.result
+{
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0.02em;
+}
+.message
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.styled-table, .tableau-hafa {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table, th, td {
+    border: 1px solid black;
+}
+
+.styled-table th, .styled-table td {
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.tableau-hafa th, .tableau-hafa td {
+    font-size: 11px;
+    height: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lieu_livraison_content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lieu_livraison
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+.signature
+{
+    margin-left: 95%;
+    width: 100px;
+    height: 50px;
+}
+.infos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+
+}
+.infos input, .en-tete input, .fournisseur input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    text-align: center;
+    font-weight: bold;
+}
+.dashed_border
+{
+    border-top:dashed;
+}
+.partie
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.sous-partie
+{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.footer
+{
+    font-size: 12px;
+}
